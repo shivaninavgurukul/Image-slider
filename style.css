@@ -1,0 +1,54 @@
+
+body{
+    background-color: gray ;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    padding: 100px 0px;
+    justify-content:center;
+    align-items: center;
+}
+h1{
+    font-size: 75px;
+    font-style: inherit;
+    color: black;
+    text-align: center;
+    border: 8px solid red;
+    background-color: yellow;
+    margin-left: -10%;
+}
+h2{
+    font-size: 100px;
+    font-style: inherit;
+    color: blue;
+    text-align: center;
+    border: 10px solid palevioletred;
+    background-color: white;
+    margin-left: -10%; 
+}
+img{
+    width: 600px;
+    height: 100%;
+}
+
+.wrapper{
+    width: 200px;
+    display: flex;
+    height: 70px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray,-2px -2px --5px gray;
+}
+.like{
+    margin: 20px;
+    cursor: pointer;
+}
+.like i{
+    font-size: 35px;
+}
+.dislike{
+    margin: 20px;
+    cursor: pointer;
+}
+.dislike i{
+    font-size: 35px;
+}
